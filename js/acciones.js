@@ -5,6 +5,10 @@ $(document).ready(function() {//linea a fuerza
 			navigator.notification.beep(2);
 			
 		});//tap1
+		$('#v1').tap(function(){
+			navigator.notification.vibrate(15);
+			
+		});//tap2
 				
 	});//deviceready
 });//ready
