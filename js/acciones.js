@@ -6,7 +6,7 @@ $(document).ready(function() {//linea a fuerza
 			
 		});//tap1
 		$('#v1').tap(function(){
-			navigator.notification.vibrate(15);
+			navigator.notification.vibrate(5000);
 			
 		});//tap2
 				
